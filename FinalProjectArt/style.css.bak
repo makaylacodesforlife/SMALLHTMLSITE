@@ -1,0 +1,81 @@
+ h1{
+     color:#0014a8;
+     position:center;
+     margin:50px;
+     padding: 50px;
+     text-align:center;
+     background-image: linear-gradient(90deg, #45b1e8 0%, #add8e6 35%, #2f9bb1 100%);
+     font-family: georgia, italic;
+     border:white;
+     border-width:5px;
+     border-style:dashed 
+}
+ body{
+     background-image: linear-gradient(90deg, white 0%, white 45%, #93d3db 100%);
+     padding: 9%;
+}
+ #butterfly, img{
+     width:500px;
+     height:100%;
+     float:left;
+}
+ p{
+     margin-left:20px;
+     padding: 20px;
+}
+ a{
+     padding: 150px;
+     text-align:center;
+     color: blue;
+}
+ form, input, footer{
+     padding: 9px;
+     text-align:center;
+     color: royalblue;
+}
+ #img1, #flower, section{
+     text-align: center;
+     background-color: #add8e6;
+     height: 500px;
+     width: 500px;
+     float: left;
+     border-radius: 10px;
+     border: 5px dashed black;
+     padding:10px;
+     margin-left:50%;
+     margin-right:50%;
+     margin-top:10%;
+     margin-bottom:50%;
+     position: relative;
+}
+ @media (max-width:600px) {
+     a {
+         margin-left:100px;
+         padding: 20px;
+         text-align: center;
+         color: blue;
+         margin-top:10px;
+    }
+     h1{
+         font-size:12px;
+    }
+     p{
+         font-size:5px;
+    }
+     body{
+         background-color:white;
+    }
+     section,#img1, #flower{
+         height:100px;
+         width:100px;
+         margin-right:60px;
+         margin-left:50px;
+    }
+     #butterfly, img {
+         width: 100px;
+         height: 100%;
+         float: left;
+    }
+}
+ 
+

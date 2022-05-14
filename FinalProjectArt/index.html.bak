@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Coder: Makayla 
+Class:Web Design
+Year: 2022
+-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ezra Paintings</title>
+    <link rel="stylesheet" href="style.css" />
+	<script>
+	function alertHello(){
+	alert("Hello! Thank you for visiting my website.");
+	}
+	</script>
+</head>
+
+<body>
+	<h1>˚*❀⑅*❀⑅*❀⑅*⳾Ezra's Paintings*⑅*❀⑅*❀⑅*❀*⳾</h1>
+	<nav>
+	<a href="index.html"onclick="alertHello()">About</a>
+	<b><a href="price.html">Available Paintings</a></b>
+	<a href="commissions.html">Reviews</a>
+	</nav>
+	<hr> 
+	<div id= "butterfly">
+	<img src ="FINISHEDDRAWING44.png" alt="a digital drawing of a man with blue butterflies">
+	</div>
+<p> Welcome ! This is my new website garnered towards selling paintings! My friend knows someone that may want to sell their paintings so I may improve this website slowly over time for them!</p>
+<br>
+<p> This semester has been pretty good and I am looking forward to next semester. One reason I chose this program is because it is completely online</p>
+<br>
+<p> This semester I also did a code bootcamp that was completely online and my work is completely online too.</p>
+<p>I hope that I will one day have a job as a UI/UX designer</p>
+	<br><br>
+</body>
+<footer> 
+<h4> Contact at</h2>
+<a href = "email">anemail.email.ca</a>
+  <footer class = "smallBorder">
+      <p>Copyright 2022. Makayla Mayne</p>
+    </footer>
+
+
+</html>
